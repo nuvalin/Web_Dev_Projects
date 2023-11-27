@@ -1,0 +1,44 @@
+[
+    {
+        "name": "SanDisk Ultra 128GB SDHC SD Memory Card 140mb/s",
+        "price": "476.99",
+        "description": "The SanDisk Ultra 128GB SDXC Memory Card is a reliable and high-performance memory card designed to store all your important photos and videos. With a read speed of up to 140MB/s, you can transfer your files quickly and easily. This memory card is compatible with SDXC and SDHC supporting devices, making it a versatile storage solution for a range of devices, including cameras, camcorders, and laptops. The card is also designed to be durable, shockproof, waterproof, and X-ray proof, so you can trust that your data is safe and secure.Whether you're a professional photographer or a casual user, the SanDisk Ultra 128GB SDXC Memory Card is a must-have for storing all your important memories. With its fast transfer speeds and high-capacity storage, you can capture and store high-quality photos and videos without worrying about running out of space. This memory card is perfect for capturing 4K UHD videos, as well as burst mode photography, so you can always capture the perfect shot.",
+        "ratings" : 4.5,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Electronics",
+        "seller" : "Ebay",
+        "Stock" : 50,
+        "numOfReviews" : 32,
+        "reviews": []
+
+    },
+    {
+        "name": "HP 15S Celeron | 4GB RAM | 256GB SSD | Windows 11 Home - Chalkboard gray",
+        "price": "5,499.00",
+        "description": "see more of your screen on the 6.5 mm micro-edge bezel display. A thin and light design makes it easy to take this PC anywhere. Tackle your busiest days with the performance of the Intel® Celeron processor. Save more of what you love with abundant storage for all your photos, videos and documents with the 256GB SSD. Long-lasting battery life and HP Fast Charge technology lets you work, watch, and stay connected all day. Integrated precision touchpad with multi-touch support speeds up navigation and productivity.",
+        "ratings" : 4.2,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Electronics",
+        "seller" : "Amazon",
+        "Stock" : 0,
+        "numOfReviews" : 2,
+        "reviews": []
+    },
+    {
+
+
+
+
+
+
+
+
+
+    }
+]
