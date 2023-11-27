@@ -31,6 +31,21 @@
         "reviews": []
     },
     {
+        "name": "Apple AirPods (2nd Gen) with Charging Case",
+        "price": "2 499,00",
+        "description": "The new AirPods combine intelligent design with breakthrough technology and crystal-clear sound. Powered by the new Apple H1 headphone chip, AirPods now feature hands-free access to Siri using just your voice. And up to 3 hours of talk time on a single charge.",
+        "ratings" : 5.0,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Headphones",
+        "seller" : "Amazon",
+        "Stock" : 11,
+        "numOfReviews" : 112,
+        "reviews": []
+    },
+    {
 
 
 
