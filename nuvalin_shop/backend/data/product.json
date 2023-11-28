@@ -47,6 +47,87 @@
     },
     {
 
+        
+        "name": "Mens Nike Dri-Fit Energy Full-Zip Black/White Hoodie",
+        "price": "1 399,95",
+        "description": "Gym, workout, practice. Repeat. Do it all with this Nike Dri-FIT Hoodie. Soft, sweat-wicking fabric helps you stay cool with every rep, and pockets are useful for keeping hands warm or essentials close by. The relaxed fit sits slightly off the body, and the Engineered for World Class Athletes graphic means it's made for everyone—all athletes, like you.",
+        "ratings" : 5.0,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Clothes/Shoes",
+        "seller" : "bash",
+        "Stock" : 8,
+        "numOfReviews" : 11,
+        "reviews": []
+    },
+    {
+        "name": "Men's Markham Tech 6 Panel Blue Peak Cap",
+        "price": "220,00",
+        "description": "This Markham Tech 6 Panel Cap is made from smooth nylon for a sportswear look and feel. It has a curved peak with an adjustable back strap and a rubberised logo stitched onto the front.",
+        "ratings" : 4.3,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Clothes/Shoes",
+        "seller" : "bash",
+        "Stock" : 17,
+        "numOfReviews" : 2,
+        "reviews": []
+    },
+    {
+        "name": "Frozen Mini Pepper Steak 12 units",
+        "price": "63.90",
+        "description": "Perfect for a quick meal, these mini pies are convenient and delicious. Enjoy the classic pepper steak flavor in these bite-sized treats!",
+        "ratings" : 3.5,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Food",
+        "seller" : "pudding&pie",
+        "Stock" : 17,
+        "numOfReviews" : 2,
+        "reviews": []
+    },
+    {
+        "name": "adidas Tango Glider White/Black Size 5 Ball",
+        "price": "249,95",
+        "description": "Adidas’s Tango Glider features a heritage design with classic responsive feel. A butyl bladder in combination with a 32 stich panel construction ensures quality air retention and structural integrity.",
+        "ratings" : 4.5,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Sports",
+        "seller" : "bash",
+        "Stock" : 5,
+        "numOfReviews" : 0,
+        "reviews": []
+    },
+    {
+        "name": "NIKON D5600 DIGITAL SLRCAMERA & 18-55MM VR DX AF-P LENS",
+        "price": "8,599,00",
+        "description": "This Nikon D5600 DSLR kit includes everything you need to get shooting great images and video. The D5600 DSLR features a 24.2 DX-format cropped sensor, tilting vari-angle touchscreen, no optical low pass filter, Bluetooth & Wi-Fi connectivity, and Full HD video recording.A nifty AF-P 18-55mm VR II lens provides a basic zoom reach, features optical image stabilisation for sharper images, and an stepping motor for smooth and near-silent autofocus.",
+        "ratings" : 3.5,
+        "images" : [{
+            "public_id" : "",
+            "url" : ""
+        }],
+        "category" : "Cameras",
+        "seller" : "bash",
+        "Stock" : 2,
+        "numOfReviews" : 0,
+        "reviews": []
+    },
+    {
+
+
+
+
+
 
 
 

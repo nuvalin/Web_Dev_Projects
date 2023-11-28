@@ -1,7 +1,7 @@
 const Product = require('../models/product')
 
 //Create new product =>  /api/v1/product/new
-exports.newProducts = async (req, res, next) => {
+exports.newProduct = async (req, res, next) => {
 
     const product = await Product.create(req.body);
 
