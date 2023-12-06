@@ -3,20 +3,19 @@ const mongoose = require('mongoose')
 const productSchema = new mongoose.Schema({
     name: {
         type: String,
-        require: [true, 'Please enter product name'],
+        required: [true, 'Please enter product name'],
         trim: true,
         maxLength: [100, 'Product name cannot exceed 100 characters']
     },
     price: {
         type: Number,
-        require: [true, 'Please enter product price'],
+        required: [true, 'Please enter product price'],
         maxLength: [5, 'Product name cannot exceed 5 characters'],
         default: 0.0
     },
     description: {
         type: String,
-        require: [true, 'Please enter product description'],
-       
+        required: [true, 'Please enter product description'],
     },
     ratings: {
         type: Number,
@@ -32,8 +31,6 @@ const productSchema = new mongoose.Schema({
                 type: String,
                 required: true
             },
-
-
         }
     ],
     category: {
@@ -47,22 +44,19 @@ const productSchema = new mongoose.Schema({
                 'Accessories',
                 'Headphones',
                 'Food',
-                'Books',
+                "Books",
                 'Clothes/Shoes',
                 'Beauty/Health',
                 'Sports',
                 'Outdoor',
                 'Home'
-
             ],
             message: 'Please select correct category for product'
         }
-
-        
     },
     seller: {
         type: String,
-        required: [true,  'Please enter product seller']
+        required: [true, 'Please enter product seller']
     },
     stock: {
         type: Number,
@@ -70,12 +64,17 @@ const productSchema = new mongoose.Schema({
         maxLength: [5, 'Product name cannot exceed 5 characters'],
         default: 0
     },
-    numOfReviews:{
+    numOfReviews: {
         type: Number,
         default: 0
     },
     reviews: [
         {
+            user: {
+                type: mongoose.Schema.ObjectId,
+                ref: 'User',
+                required: true
+            },
             name: {
                 type: String,
                 required: true
@@ -88,16 +87,17 @@ const productSchema = new mongoose.Schema({
                 type: String,
                 required: true
             }
-        
+        }
+    ],
+    user: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User',
+        required: true
+    },
+    createdAt: {
+        type: Date,
+        default: Date.now
     }
-],
-createdAt:{
-    type: Date,
-    default: Date.now
-}
-
-
-
 })
 
 module.exports = mongoose.model('Product', productSchema);
