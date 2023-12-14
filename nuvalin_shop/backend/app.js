@@ -10,15 +10,8 @@ const path = require('path')
 
 const errorMiddleware = require('./middlewares/errors')
 
-// Setting up config file cloudinary
-cloudinary.config({
-    cloud_name : process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET
-
-
-})
-
+// Setting up config file 
+if (process.env.NODE_ENV !== 'PRODUCTION') require('dotenv').config({ path: 'backend/config/config.env' })
 // dotenv.config({ path: 'backend/config/config.env' })
 
 app.use(express.json());
