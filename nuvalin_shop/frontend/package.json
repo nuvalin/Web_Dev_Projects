@@ -56,5 +56,5 @@
   "devDependencies": {
     "redux-devtools-extension": "^2.13.9"
   },
-  "proxy": "https://shoppingcart-backend-x4kw.onrender.com"
+  "proxy": "http://127.0.0.1:4000"
 }
