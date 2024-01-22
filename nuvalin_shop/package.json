@@ -1,6 +1,7 @@
 {
   "name": "nuvalin_shop",
   "version": "1.0.0",
+  "node": "18.x",
   "description": "full ecommerce site using mern",
   "main": "server.js",
   "scripts": {
