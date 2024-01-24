@@ -10,12 +10,6 @@
     "seeder": "node backend/utils/seeder.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
-
-  "engines": {
-    "npm": "9.5.1",
-    "node": "18.x"
-  },
-
   "author": "Nuvalin Moodley",
   "license": "ISC",
   "dependencies": {
