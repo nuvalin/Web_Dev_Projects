@@ -4,7 +4,7 @@ const app = express();
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const fileUpload = require('express-fileupload')
-const cloudinary = require ('cloudinary')
+//const cloudinary = require ('cloudinary')
 //const dotenv = require ('dotenv');
 const path = require('path')
 
@@ -32,7 +32,7 @@ app.use('/api/v1', auth)
 app.use('/api/v1', payment)
 app.use('/api/v1', order)
 
- if (process.env.NODE_ENV === 'PRODUCTION') {
+ if (process.env.NODE_ENV !== 'PRODUCTION') {
      app.use(express.static(path.join(__dirname, '../frontend/build')))
 
      app.get('*', (req, res) => {
